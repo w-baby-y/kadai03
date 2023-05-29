@@ -268,7 +268,7 @@ $("#AI").on("click", function () {
   console.log(c, "AIに入力する言葉");
 
   sendPrompt(c).then(function (aiText) {
-    $("#aiText").html('<img src="../img/icon.png" alt="AI"><br>');
+    $("#aiText").html('<img src="img/icon.png" alt="AI"><br>');
     $("#aiText").append("ChatGPTの回答：" + aiText);
     // console.log(aiText);
   });
