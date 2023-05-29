@@ -1,0 +1,179 @@
+/* html {
+  transform: scale(0.7);
+  transform-origin: left top;
+  height: calc(100% / 0.7);
+  width: calc(100% / 0.7);
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #cc0066; /* sakura pink color */
+  text-shadow: 2px 2px 2px #999999;
+}
+
+h5 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#btn,
+#clear,
+#AI {
+  background-color: #cc0066;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#btn:hover,
+#clear:hover,
+#AI:hover {
+  background-color: #ff6699;
+}
+
+#collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 120px;
+  height: 180px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  /* max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto; */
+}
+.imgContainer {
+  height: 112px;
+}
+
+.card.SSR {
+  background: linear-gradient(
+    45deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  color: white;
+}
+.card.SR {
+  background: linear-gradient(45deg, gold, darkgoldenrod);
+  color: white;
+}
+
+.card.SR {
+  background: linear-gradient(45deg, gold, darkgoldenrod);
+  color: white;
+}
+
+.card.R {
+  background: linear-gradient(45deg, rgb(184, 184, 184), rgb(121, 121, 121));
+  color: white;
+}
+
+div#choice-card:has(div.SSR) {
+  background: linear-gradient(
+    45deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  color: white;
+}
+
+div#choice-card:has(div.SR) {
+  background: linear-gradient(45deg, gold, darkgoldenrod);
+  color: white;
+}
+
+div#choice-card:has(div.R) {
+  background: linear-gradient(45deg, rgb(184, 184, 184), rgb(121, 121, 121));
+  color: white;
+}
+
+/* 引いたカードを目立たせ、異なるサイズの画像を親要素に収める */
+#choice-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  height: 450px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+#choice-card img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cardImgContainer {
+  height: 280px;
+}
+
+#aiText {
+  width: 30%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#aiText img {
+  width: 50px;
+}
+
+table {
+  width: 30%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,
+td {
+  font-size: 20px;
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #cc0066; /* sakura pink color */
+  color: white;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}

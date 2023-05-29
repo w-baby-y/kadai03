@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>ネットミームガチャ</title>
+    <script src="https://unpkg.com/obniz@3.x/obniz.js"></script>
+  </head>
+  <body>
+    <h1>ネットミームガチャ</h1>
+
+    <div id="choice-card"></div>
+    <div id="button-container">
+      <button id="btn">ガチャ</button>
+      <button id="clear">クリア</button>
+      <button id="AI">AIに相談</button>
+    </div>
+    <div id="aiText"></div>
+    <table>
+      <tbody>
+        <tr>
+          <td>レア度</td>
+          <td>回数</td>
+          <td>確率</td>
+        </tr>
+        <tr>
+          <td>SSR</td>
+          <td id="SSRNum"></td>
+          <td id="SSR"></td>
+        </tr>
+        <tr>
+          <td>SR</td>
+          <td id="SRNum"></td>
+          <td id="SR"></td>
+        </tr>
+        <tr>
+          <td>R</td>
+          <td id="RNum"></td>
+          <td id="R"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- <div id="SSR">SSRの確率<span></span></div>
+    <div id="SR">SRの確率<span></span></div>
+    <div id="R">Rの確率<span></span></div> -->
+    <h2>コレクション</h2>
+    <div id="collection"></div>
+    <button id="apiClear">APIKEY-DEL</button>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
