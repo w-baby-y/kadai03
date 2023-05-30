@@ -126,7 +126,17 @@ function gacha() {
         <h2>${card.name}</h2>
         </div>
     `;
+  // $("#choice-card").html(choice);
+
+  // 一旦HTMLを更新してから、アニメーションをリセットします
   $("#choice-card").html(choice);
+  // 既存の'rotate'クラスを削除
+  $("#choice-card").removeClass("rotate");
+  // 短い遅延後に'rotate'クラスを再追加
+  setTimeout(function () {
+    $("#choice-card").addClass("rotate");
+  }, 1);
+
   //コレクションの更新
   displayAdd();
   // 各レアカードの取得回数を保存

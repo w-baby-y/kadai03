@@ -177,3 +177,20 @@ th {
 tr:hover {
   background-color: #f5f5f5;
 }
+
+/* 画像回転させたい */
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(540deg); /* 1.5回転 */
+  }
+  100% {
+    transform: rotateY(1080deg); /* 3回転 */
+  }
+}
+
+.rotate {
+  animation: rotate 1s ease-out; /* 1秒間でアニメーションを実行し、ease-outで減速させます */
+}
