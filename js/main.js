@@ -7,31 +7,76 @@ let cards = [
   ...Array(6).fill({ type: "SR", name: "さくらみこ", image: "img/sr.avif" }),
 
   // R
-  ...Array(19).fill({ type: "R", name: "ソルトベイ", image: "img/001.gif" }),
-  ...Array(19).fill({ type: "R", name: "Troll Face", image: "img/002.webp" }),
-  ...Array(19).fill({ type: "R", name: "Doge", image: "img/003.webp" }),
-  ...Array(19).fill({
+  ...Array(10).fill({ type: "R", name: "ソルトベイ", image: "img/001.gif" }),
+  ...Array(10).fill({ type: "R", name: "Troll Face", image: "img/002.webp" }),
+  ...Array(10).fill({ type: "R", name: "Doge", image: "img/003.webp" }),
+  ...Array(10).fill({
     type: "R",
     name: "5000兆円欲しい",
     image: "img/004.jpg",
   }),
-  ...Array(19).fill({
+  ...Array(10).fill({
     type: "R",
     name: "スプーのえかきうた",
     image: "img/005.jpg",
   }),
-  ...Array(19).fill({
+  ...Array(10).fill({
     type: "R",
     name: "千円札でタバコ一個…妙だな…",
     image: "img/006.jpg",
   }),
-  ...Array(19).fill({ type: "R", name: "尻振り猫と鳥", image: "img/007.gif" }),
-  ...Array(19).fill({ type: "R", name: "パルクール", image: "img/008.gif" }),
-  ...Array(20).fill({ type: "R", name: "宇宙猫", image: "img/009.jpg" }),
-  ...Array(20).fill({
+  ...Array(10).fill({ type: "R", name: "尻振り猫と鳥", image: "img/007.gif" }),
+  ...Array(10).fill({ type: "R", name: "パルクール", image: "img/008.gif" }),
+  ...Array(10).fill({ type: "R", name: "宇宙猫", image: "img/009.jpg" }),
+  ...Array(10).fill({
     type: "R",
     name: "尻振り猫とオニール",
     image: "img/010.gif",
+  }),
+  ...Array(10).fill({
+    type: "R",
+    name: "ソリイヌ",
+    image: "img/011.gif",
+  }),
+  ...Array(10).fill({
+    type: "R",
+    name: "中継に映る美女",
+    image: "img/012.gif",
+  }),
+  ...Array(10).fill({
+    type: "R",
+    name: "バイバイグマ",
+    image: "img/013.gif",
+  }),
+  ...Array(10).fill({
+    type: "R",
+    name: "奇跡のゴール",
+    image: "img/014.gif",
+  }),
+  ...Array(10).fill({
+    type: "R",
+    name: "ヒーローインタビュー",
+    image: "img/015.gif",
+  }),
+  ...Array(10).fill({
+    type: "R",
+    name: "因果応報",
+    image: "img/016.gif",
+  }),
+  ...Array(10).fill({
+    type: "R",
+    name: "旅立ち",
+    image: "img/017.gif",
+  }),
+  ...Array(11).fill({
+    type: "R",
+    name: "怠惰の極み",
+    image: "img/018.gif",
+  }),
+  ...Array(11).fill({
+    type: "R",
+    name: "ボッシュート",
+    image: "img/019.gif",
   }),
 ];
 // localStorage内のキー「cardCollection」の文字列(JSON)を配列に変換。|| []は未定義なら空の配列にする
