@@ -14,10 +14,8 @@ https://w-baby-y.github.io/kadai03/
 - ChatGPTは回答に時間がかかり、普通に実装すると意図しない動作になるため、非同期処理としてコーディングした
 - 今までガチャで使ってきたお金の無情さを理解するためにこのアプリを作ったが、実際にお金を払う仕組みがあると面白いと考えて、IoTを手軽にJavaScriptで実装できるobnizを利用して貯金箱とスイッチを組み合わせてお金を投入するとガチャが回せる仕組みを仮組みした。仕組みの写真、動画は以下の通り
 - ![iot](https://github.com/w-baby-y/kadai03/assets/132176613/83831660-625d-45ea-b006-729c2c1512d7)
-- ![mov](https://github.com/w-baby-y/kadai03/assets/132176613/6fc9640e-bf94-492a-bb85-d1170cfd6511)
 
-
-
+https://github.com/w-baby-y/kadai03/assets/132176613/6fc9640e-bf94-492a-bb85-d1170cfd6511
 
 
 
